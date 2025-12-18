@@ -105,7 +105,7 @@ export default function HeroSection() {
                   as="h1"
                   className="mt-8 text-balance text-5xl md:text-7xl lg:mt-16 xl:text-[5.25rem] font-semibold"
                 >
-                  Designs That Captivate, Brands That Shine.
+                  A multi-disciplinary approach to modern identity.
                 </TextEffect>
                 <TextEffect
                   per="line"
@@ -115,9 +115,9 @@ export default function HeroSection() {
                   as="p"
                   className="mx-auto mt-8 max-w-2xl text-balance text-lg"
                 >
-                  At Lume Studio, we blend creativity and strategy to craft
-                  stunning websites, striking visuals, and unforgettable brand
-                  experiences that set you apart.
+                  A high-end visual designer dedicated to crafting brands,
+                  posters, and digital experiences that merge elegance
+                  with purpose — designed for those who seek distinction.
                 </TextEffect>
 
                 <AnimatedGroup
@@ -144,20 +144,22 @@ export default function HeroSection() {
                       className="rounded-xl px-5 text-base"
                     >
                       <Link
-                        href="https://github.com/haramishra/lume-studio-next"
-                        target="_black"
+                        href="/contact"
+                        target="_blank"
                       >
                         <svg
-                          className="size-6"
+                          className="mr-2 size-5"
                           viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                           xmlns="http://www.w3.org/2000/svg"
                         >
-                          <path
-                            fill="currentColor"
-                            d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"
-                          />
+                          <rect width="20" height="14" x="2" y="7" rx="2" ry="2" />
+                          <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
                         </svg>
-                        <span className="text-nowrap">Github</span>
                       </Link>
                     </Button>
                   </div>
@@ -168,8 +170,8 @@ export default function HeroSection() {
                     variant="ghost"
                     className="h-10.5 rounded-xl px-5"
                   >
-                    <Link href="/full-version">
-                      <span className="text-nowrap">Full Version</span>
+                    <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                      <span className="text-nowrap">My Resume</span>
                     </Link>
                   </Button>
                 </AnimatedGroup>
